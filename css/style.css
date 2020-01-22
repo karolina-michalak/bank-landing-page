@@ -43,6 +43,11 @@ p{
     color: white
 }
 
+.bg-primary{
+    background: #03a9f4;
+    color: white
+}
+
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -92,6 +97,12 @@ p{
     border: none;
     border-radius: 5px;
 }
+
+.btn-dark{
+    background-color: #333;
+    color: white;
+}
+
 
 .list{
     margin: 0.5rem 0;
@@ -190,4 +201,27 @@ list li{
     display: block;
     margin: auto;
     width: 60%
+}
+
+#contact{
+    display: flex;
+}
+
+#contact .map,
+#contact .contact-form{
+    flex: 1
+}
+
+#contact .contact-form .form-group{
+    margin: 0.75rem
+}
+
+#contact .contact-form label{
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem
 }
