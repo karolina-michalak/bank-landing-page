@@ -4,7 +4,7 @@ $('#navbar a, .btn').on('click', function(event){
       const hash = this.hash;
       $('html, body').animate(
         {
-          scrollTop: $(hash).offset().top - 60
+          scrollTop: $(hash).offset().top - 80
         },
         700
       )

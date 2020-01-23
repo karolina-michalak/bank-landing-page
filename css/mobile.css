@@ -19,4 +19,58 @@
         flex-direction: column;
         align-items: center;
     }
+
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul{
+        padding: 0.5rem
+    }
+
+    #showcase .showcase-content{
+        top: 100px;
+    
+    }
+
+    #team{
+        display: block;
+    }
+
+    #team .team-img{
+        display: none;
+    }
+
+    #clients .items img{
+        width: 80%
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #contact .map .map-file{
+        height: 300px;
+    }
+}
+
+@media(max-height: 568px){
+    #showcase .showcase-content{
+        /* w galaxy, zeby button był widoczny, chcemy przeniesc sekcję do gory (dlatego -2) */
+        margin-top: -2rem;
+        top: 140px
+    }
+
+    .l-heading{
+        font-size: 3rem
+    }
+
+    .lead{
+        font-size: 1rem
+    }
+
+    #navbar ul li a{
+        font-size: 0.8rem
+    }
 }
