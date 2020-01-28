@@ -1,3 +1,4 @@
+
 window.addEventListener('scroll', function () {
 
   const currentPosition = document.documentElement.scrollTop + 110;
@@ -21,5 +22,6 @@ window.addEventListener('scroll', function () {
     }
 
 })
+
 
 
