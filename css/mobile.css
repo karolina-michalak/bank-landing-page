@@ -14,6 +14,10 @@
     margin-bottom: 0
 }
 
+.photo-change{
+    display: none
+}
+
 @media(max-width: 500px){
     #navbar{
         flex-direction: column;
