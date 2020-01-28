@@ -1,6 +1,6 @@
 window.addEventListener('scroll', function () {
 
-  const currentPosition = window.scrollY + window.outerHeight / 2;
+  const currentPosition = document.documentElement.scrollTop + 90;
   const navButtons = document.querySelectorAll('.colored');
   const about = document.getElementById('about');
   const team = document.getElementById('team');
