@@ -147,6 +147,11 @@ list li{
     border-radius: 5px
 }
 
+#navbar ul li a.active{
+    background: #03a9f4;
+    border-radius: 5px
+}
+
 #showcase{
     background: #333 url('../img/city.webp') no-repeat center center/cover;
     height: 100vh;
