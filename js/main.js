@@ -1,4 +1,4 @@
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
 
   const currentPosition = document.documentElement.scrollTop + 110;
   const navButtons = document.querySelectorAll('.colored');
@@ -25,7 +25,7 @@ window.addEventListener('scroll', function () {
 
 const toTheTopButton = document.querySelector('.toTheTopButton');
 
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     toTheTopButton.style.display = "block";
   } else {

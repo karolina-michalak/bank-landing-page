@@ -123,7 +123,7 @@ p {
     list-style: none;
 }
 
-list li {
+.list li {
     padding: 0.5rem 0;
 }
 
@@ -131,6 +131,7 @@ list li {
     background: #333;
     color: white;
     position: sticky;
+    width: 100%;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -193,6 +194,14 @@ list li {
     margin-left: -80px
 }
 
+#about {
+    border-top: 50px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
 #about .items {
     display: flex;
     padding: 1rem;
@@ -213,6 +222,11 @@ list li {
 
 #team {
     display: flex;
+    border-top: 50px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 #team div {
@@ -221,6 +235,14 @@ list li {
 
 #team .team-img {
     background: url('../img/team.webp') no-repeat center center/cover;
+}
+
+#clients {
+    border-top: 50px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 #clients .items {
@@ -236,6 +258,11 @@ list li {
 #contact {
     display: flex;
     height: 40rem;
+    border-top: 50px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 #contact .map,
